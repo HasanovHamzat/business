@@ -1,0 +1,254 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.header{
+    margin-top: 32px;
+    margin-bottom: 30px;
+}
+.header-list{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+    margin-right: 10px;
+    
+}
+.header-list__item{
+    margin-right: 27px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #646667;
+}
+.header-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+}
+.bg-main{
+    background-image: url('../img/main/bg-main.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1170px;
+    height: 411px;
+    position: relative;
+    margin-bottom: 46px;
+}
+.main{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.main-title{
+    position: absolute;
+    bottom: 85px;
+    left: 400px;
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0px 3px 1px rgba(0, 0, 0, 0.6);
+}
+.main-description{
+    margin: 0;
+    margin-bottom: 46px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    color: #646667;
+}
+.main-button{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #007397;
+    border: none;
+}
+.investor{
+    margin-bottom: 100px;
+}
+.investor-title{
+    margin: 0;
+    margin-bottom: 40px;
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #3C3F3D;
+}
+.investor-description{
+    margin: 0;
+    margin-bottom: 48px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 36px;
+    color: #646667;
+}
+.percent-list{
+    margin: 0;
+    margin-bottom: 82px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.percent-list__item{
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 54px;
+    line-height: 54px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #007397;
+}
+.investor-button{
+    padding: 20px 65px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #007397;
+    border: none;
+}
+.news{
+    margin-bottom: 100px;
+}
+.news-title{
+    margin: 0;
+    margin-bottom: 48px;
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #3C3F3D;
+}
+.news-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.news-img{
+    position: relative;
+}
+.news-img__span{
+    position: absolute;
+    top: 24px;
+    left: 30px;
+}
+.news-img__title{
+    position: absolute;
+    left: 30px;
+    bottom: 77px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.news-description{
+    margin: 0;
+    margin-bottom: 32px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #646667;
+}
+.map-title{
+    margin: 0;
+    margin-bottom: 48px;
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #3C3F3D;
+}
+.footer{
+    margin-top: 44px;
+    margin-bottom: 41px;
+}
+.footer-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-name{
+    margin: 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #646667;
+}
+.footer-list{
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.footer-list__item{
+    margin-left: 40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 40px;
+    text-align: right;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #646667;
+}
